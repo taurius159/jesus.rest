@@ -1,0 +1,46 @@
+.header {
+    height: 100vh;
+    background-image: url("../assets/pexels-maurxeugenio-2752461.jpg");
+    background-size: cover;
+    background-position: center;
+
+    position: relative;
+    }
+  
+  .nav {
+    font-size: 20px;
+    font-weight: 700;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .nav div {
+    color: black;
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+  
+  .header-container {
+    width: 95%;
+    position: absolute;
+    left: 10%;
+    bottom: 0%;
+    transform: translate(-10%);
+  
+    text-align: center;
+
+    margin-left: 1rem;
+    margin-right: 1rem;
+
+    margin-bottom: 2vw;
+  }
+  
+  h1 {
+    font-size: 52px;
+    margin-bottom: 32px;
+  }
+  
+  p {
+    font-size: 20px;
+    line-height: 1.6;
+  }
